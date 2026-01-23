@@ -7,7 +7,7 @@
   type: 'project', // Luôn để 'project' để nó hiện ở bảng so sánh  
   category: 'AI', // Tên danh mục (ví dụ: Hosting, SEO, Crypto...)  
   rating: 4.9, // Điểm từ 1-5  
-  image: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/n8n.png', // Link ảnh thực tế hoặc từ Unsplash  
+  image: 'https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8br1ok0kwtye16e2x959.png', // Link ảnh thực tế hoặc từ Unsplash  
   affiliateUrl: 'https://n8n.partnerlinks.io/es0t0cauc5av',  
   createdAt: '2026-01-23',  
   pros: ['High commission', 'Recurring', 'Support 24/7'],  
