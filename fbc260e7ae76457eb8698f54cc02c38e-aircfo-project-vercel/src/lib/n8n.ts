@@ -8,7 +8,7 @@
   category: 'AI', // Tên danh mục (ví dụ: Hosting, SEO, Crypto...)  
   rating: 4.9, // Điểm từ 1-5  
   image: 'https://n8niostorageaccount.blob.core.windows.net/n8nio-strapi-blobs-prod/assets/Home_ITO_Ps_5a5aac3fda.webp', // Link ảnh thực tế hoặc từ Unsplash  
-  affiliateUrl: 'https://n8n.partnerlinks.io/es0t0cauc5av',  
+  affiliateUrl: 'https://n8n.partnerlinks.io/4scoqrc4v13s',  
   createdAt: '2026-01-23',  
   pros: ['High commission', 'Recurring', 'Support 24/7'],  
   cons: ['N/A'],  
