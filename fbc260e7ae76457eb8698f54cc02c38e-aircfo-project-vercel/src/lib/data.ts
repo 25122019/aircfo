@@ -73,21 +73,30 @@ export const reviews: Review[] = [
   },
   {
     id: '5',
-    title: 'Sony ZV-1 II Vlogging Camera',
-    slug: 'sony-zv1-ii-review',
-    description: 'The best compact camera for affiliate marketers creating video reviews.',
+    title: 'ElevenLabs - The Best AI Voice of 2026',
+    slug: 'elevenlabs-affiliate-review',
+    description: 'ElevenLabs Generative Voice AI - Best AI Voice',
     type: 'product',
     content: `
       <h2>Compact Video Powerhouse</h2>
-      <p>Sony's ZV-1 II makes it easy to create professional-looking reviews with its excellent autofocus and built-in ND filter.</p>
+      <p>ElevenLabs Generative Voice AI - Best AI Voice</p>
     `,
     rating: 4.7,
-    category: 'Gear',
-    image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&q=80&w=800',
-    affiliateUrl: 'https://amazon.com/dp/example2',
+    category: 'AI',
+    image: 'https://cdn-media.sforum.vn/storage/app/media/1image/bang-gia-elevenlabs-thumbnail.jpg',
+    affiliateUrl: 'https://try.elevenlabs.io/8dzlsnjwlzid',
     createdAt: '2026-01-22',
-    pros: ['Wide-angle lens', 'Excellent autofocus', 'Great microphone'],
-    cons: ['Small battery', 'No in-body stabilization'],
+    pros: ['High commission', 'Fast generated', '24/7 Support'],
+    cons: ['N/A'],
+      commission: '22% in first years',   
+  cookieTime: '30 days',  
+  paymentMethods: ['Paypal/Stripe/Wire Transfer'],  
+  content: `  
+    <h2>Giới thiệu về dự án</h2>  
+    <p>Nội dung chi tiết bài viết của bạn ở đây...</p>  
+    <h2>Chính sách hoa hồng</h2>  
+    <p>Phân tích sâu về cách kiếm tiền với dự án này...</p>  
+  `,  
   }
 ];
 
