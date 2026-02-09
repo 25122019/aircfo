@@ -58,7 +58,38 @@ export default function Home() {
   return (
     <div className="flex flex-col gap-12 pb-12">
       {/* Hero Section */}
-      <section className="py-20 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/15 via-background to-background">
+      <section className="relative py-20 overflow-hidden">
+  {/* Background image */}
+  <div
+    className="absolute inset-0 bg-cover bg-center"
+    style={{
+      backgroundImage: "url('/images/background.png')",
+      backgroundPosition: "60% 55%", // chỉnh để giữ laptop/brain
+    }}
+  />
+
+  {/* Overlay để làm mờ + làm sáng chữ */}
+  <div className="absolute inset-0 bg-background/70 backdrop-blur-sm" />
+
+  {/* Optional: thêm vignette nhẹ cho sang */}
+  <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/70 to-background" />
+
+  {/* Content */}
+  <div className="relative container mx-auto px-4 text-center">
+    <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
+      Expert Reviews for <span className="text-primary">Affiliate Success</span>
+    </h1>
+    <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+      We test and review the best affiliate programs, tools, and training.
+    </p>
+    <div className="flex flex-wrap justify-center gap-4">
+      <button className="px-6 py-3 rounded-md bg-primary text-primary-foreground">
+        Browse All
+      </button>
+    </div>
+  </div>
+</section>
+
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
             {locale === 'vi' ? 'Đánh giá Chuyên gia cho ' : locale === 'de' ? 'Expertenbewertungen für ' : 'Expert Reviews for '}
