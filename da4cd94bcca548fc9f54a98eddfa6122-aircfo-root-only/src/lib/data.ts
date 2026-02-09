@@ -32,8 +32,8 @@ export interface Review {
 }
 
 export const reviews: Review[] = [
-  elevenlabsReview,
   n8nReview,
+  elevenlabsReview,
   airwallexReview,
   wealthyAffiliateReview,
 ];
