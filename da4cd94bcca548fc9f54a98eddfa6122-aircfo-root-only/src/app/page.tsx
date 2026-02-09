@@ -111,7 +111,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* Categories Bar */}
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap gap-3 justify-center">
