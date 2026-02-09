@@ -1,7 +1,7 @@
 import { Review } from "../data";
 
 export const airwallexReview: Review = {
-  id: '7',
+  id: '8',
   slug: 'airwallex-affiliate-review',
   type: 'project',
   category: 'Finance',
