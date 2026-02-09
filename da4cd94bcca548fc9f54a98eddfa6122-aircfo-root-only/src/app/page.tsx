@@ -58,7 +58,7 @@ export default function Home() {
   return (
     <div className="flex flex-col gap-12 pb-12">
       {/* Hero Section */}
-      <section className="bg-primary/5 py-20">
+      <section className="py-20 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/15 via-background to-background">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
             {locale === 'vi' ? 'Đánh giá Chuyên gia cho ' : locale === 'de' ? 'Expertenbewertungen für ' : 'Expert Reviews for '}
