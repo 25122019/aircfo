@@ -88,7 +88,7 @@ export default function Home() {
       </button>
     </div>
   </div>
-</section>
+
 
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
