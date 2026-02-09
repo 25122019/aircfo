@@ -35,6 +35,7 @@ export const reviews: Review[] = [
   elevenlabsReview,
   n8nReview,
   wealthyAffiliateReview,
+  airwallexReview,
 ];
 
-export const categories = ['Training', 'Hosting', 'SEO Tools', 'E-commerce', 'Ads', 'Gear', 'AI'];
+export const categories = ['Training', 'Hosting', 'SEO Tools', 'E-commerce', 'Ads', 'Gear', 'AI', 'Finance'];
