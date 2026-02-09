@@ -63,7 +63,7 @@ export default function Home() {
   <div
     className="absolute inset-0 bg-cover bg-center"
     style={{
-      backgroundImage: "url('/images/background.png')",
+      backgroundImage: "url('/public/images/background.png')",
       backgroundPosition: "60% 55%", // chỉnh để giữ laptop/brain
     }}
   />
