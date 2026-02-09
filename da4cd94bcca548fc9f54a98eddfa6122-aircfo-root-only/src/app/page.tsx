@@ -64,15 +64,12 @@ export default function Home() {
     className="absolute inset-0 bg-cover bg-center"
     style={{
       backgroundImage: "url('/public/images/background.png')",
-      backgroundPosition: "60% 55%", // chỉnh để giữ laptop/brain
-    }}
-  />
+      backgroundPosition: "62% 55%",
+  }}
+/>
 
-  {/* Overlay để làm mờ + làm sáng chữ */}
-  <div className="absolute inset-0 bg-background/70 backdrop-blur-sm" />
-
-  {/* Optional: thêm vignette nhẹ cho sang */}
-  <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/70 to-background" />
+<div className="absolute inset-0 bg-background/35" />
+<div className="absolute inset-0 bg-gradient-to-b from-background/10 via-background/25 to-background/60" />
 
   {/* Content */}
   <div className="relative container mx-auto px-4 text-center">
