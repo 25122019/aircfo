@@ -1,7 +1,7 @@
 import { n8nReview } from "./reviews/n8n";
-import { wealthyAffiliateReview } from "./reviews/wealthy-affiliate";
 import { elevenlabsReview } from "./reviews/elevenlabs";
 import { airwallexReview } from "./reviews/airwallex";
+import { wealthyAffiliateReview } from "./reviews/wealthy-affiliate";
 
 
 export type Locale = 'en' | 'vi' | 'de';
@@ -34,8 +34,8 @@ export interface Review {
 export const reviews: Review[] = [
   elevenlabsReview,
   n8nReview,
-  wealthyAffiliateReview,
   airwallexReview,
+  wealthyAffiliateReview,
 ];
 
 export const categories = ['Training', 'Hosting', 'SEO Tools', 'E-commerce', 'Ads', 'Gear', 'AI', 'Finance'];
