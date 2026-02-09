@@ -1,6 +1,8 @@
 import { n8nReview } from "./reviews/n8n";
 import { wealthyAffiliateReview } from "./reviews/wealthy-affiliate";
 import { elevenlabsReview } from "./reviews/elevenlabs";
+import { airwallexReview } from "./reviews/airwallex";
+
 
 export type Locale = 'en' | 'vi' | 'de';
 
