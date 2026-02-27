@@ -39,4 +39,4 @@ export const reviews: Review[] = [
   wealthyAffiliateReview,
 ];
 
-export const categories = ['Training', 'Hosting', 'SEO Tools', 'E-commerce', 'Ads', 'Gear', 'AI', 'Finance'];
+export const categories = ['Training', 'Hosting', 'SEO Tools', 'E-commerce', 'Ads', 'Gear', 'AI', 'Finance', 'SaaS'];
