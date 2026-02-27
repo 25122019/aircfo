@@ -2,7 +2,7 @@ import { n8nReview } from "./reviews/n8n";
 import { elevenlabsReview } from "./reviews/elevenlabs";
 import { airwallexReview } from "./reviews/airwallex";
 import { wealthyAffiliateReview } from "./reviews/wealthy-affiliate";
-
+import { capsuleReview } from "./reviews/CapsuleCRM";
 
 export type Locale = 'en' | 'vi' | 'de';
 
@@ -34,6 +34,7 @@ export interface Review {
 export const reviews: Review[] = [
   n8nReview,
   elevenlabsReview,
+  capsuleReview,
   airwallexReview,
   wealthyAffiliateReview,
 ];
