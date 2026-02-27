@@ -4,7 +4,7 @@ export const capsuleReview: Review = {
   id: '9',
   slug: 'capsule-affiliate-review',
   type: 'project',
-  category: 'Finance',
+  category: 'SaaS',
   rating: 4.6,
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDoCKOV8da_A3MLz4MrFwZOb1t5sSPlCi5zg&s',
   affiliateUrl: 'https://get.capsulenow.io/bcgvx9kw6udc',
